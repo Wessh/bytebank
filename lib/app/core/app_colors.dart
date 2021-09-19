@@ -11,9 +11,9 @@ class AppColors {
   static const Color secondaryColor = Color(0xFF2a68f9);
   static const Color secondaryLight = Color(0xFF7595ff);
   static const Color secondaryDark = Color(0xFF003fc5);
-
   //Text
-  static const Color textColor = Color(0xFFFFFFFF);
+  static const Color textLight = Color(0xFFFFFFFF);
+  static const Color textDark = Color(0xFF000000);
 }
 
 /// Usado exclusivamente para o primarySwatch

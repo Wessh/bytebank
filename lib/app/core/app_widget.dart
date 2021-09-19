@@ -10,13 +10,14 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       title: 'BytebankApp',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSwatch(
-          primarySwatch: createMaterialColor(
-            const Color(0xFF235d2a),
+          colorScheme: ColorScheme.fromSwatch(
+            primarySwatch: createMaterialColor(
+              const Color(0xFF235d2a),
+            ),
+            accentColor: AppColors.secondaryColor,
           ),
-          accentColor: AppColors.secondaryColor,
-        ),
-      ),
+          buttonTheme:
+              const ButtonThemeData(buttonColor: AppColors.secondaryColor)),
       home: const HomePage(),
     );
   }
