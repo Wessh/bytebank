@@ -1,16 +1,10 @@
 # bytebank
 
-A new Flutter project.
+Segundo Projeto Flutter, proposto pela Alura para prática de persistência de dados.
 
-## Getting Started
+### Material consultado
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter: Creating custom color swatch for MaterialColor](https://medium.com/@filipvk/creating-a-custom-color-swatch-in-flutter-554bcdcb27f3)
+- [Material Design](https://material.io/)
+- [Adobe Color](https://color.adobe.com/pt/create/color-wheel)
+- [Flutter Widget Catalog](https://flutter.dev/docs/development/ui/widgets)
