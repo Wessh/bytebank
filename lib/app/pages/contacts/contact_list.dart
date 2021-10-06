@@ -32,9 +32,13 @@ class ContactList extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Navigator.of(context).push(
-            MaterialPageRoute(builder: (context) => const ContactForm()),
-          );
+          Navigator.of(context)
+              .push(
+                MaterialPageRoute(builder: (context) => ContactForm()),
+              )
+              .then(
+                (newContact) => debugPrint(newContact.toString()),
+              );
         },
         child: const Icon(Icons.add),
         backgroundColor: Theme.of(context).colorScheme.primary,
