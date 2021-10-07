@@ -8,7 +8,7 @@ class ContactList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text('Contacts')),
+        title: Center(child: Text('Contacts')),
       ),
       body: ListView(
         children: [
@@ -40,7 +40,7 @@ class ContactList extends StatelessWidget {
                 (newContact) => debugPrint(newContact.toString()),
               );
         },
-        child: const Icon(Icons.add),
+        child: Icon(Icons.add),
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
     );
